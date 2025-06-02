@@ -3,25 +3,13 @@ public class Main {
         int a = 10;
         int b = 3;
 
-        int sum = a + b;
+        a += 5;
+        System.out.println(a);
 
-        System.out.println(sum);
-
-        int difference;
-        int product;
-        int quotient;
-        int remainder;
-
-        difference = a - b;
-        System.out.println(difference);
-
-        product = a * b;
-        System.out.println(product);
-
-        quotient = a / b;
-        System.out.println(quotient);
-
-        remainder = a % b;
-        System.out.println(remainder);
+        b -= 1;
+        b *= 4;
+        b /= 2;
+        b %= 3;
+        System.out.println(b);
     }
 }
